@@ -1,4 +1,4 @@
-<h2>Kontak admin</h2>
+<h2>Admin</h2>
 
 @if (session('success'))
     <p>{{ session('success') }}</p>
@@ -21,5 +21,5 @@
         <option value="super-admin" value="{{ old('role') == 'super-admin' ? 'selected' : ''}}">Super Admin</option>
         <option value="kasir" value="{{ old('role') == 'kasir' ? 'selected' : ''}}">Kasir</option>
     </select> <br>
-    <button type="submit">Kirim</button>
+    <button type="submit">Login</button>
 </form>
